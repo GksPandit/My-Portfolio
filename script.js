@@ -24,3 +24,39 @@ form.addEventListener("submit", function (e) {
         alert("Failed to Send Message");
     });
 });
+
+
+
+/*==================== PROJECT FILTER ====================*/
+
+const projectFilters = document.querySelectorAll(".project-filter");
+const projectCards = document.querySelectorAll(".project-card");
+
+projectFilters.forEach((filter) => {
+    filter.addEventListener("click", () => {
+
+        const selectedCategory = filter.getAttribute("data-filter");
+
+        projectFilters.forEach((btn) => {
+            btn.classList.remove("active");
+        });
+
+        filter.classList.add("active");
+
+        projectCards.forEach((card) => {
+
+            const cardCategory = card.getAttribute("data-category");
+
+            if (
+                selectedCategory === "all" ||
+                cardCategory === selectedCategory
+            ) {
+                card.style.display = "flex";
+            } else {
+                card.style.display = "none";
+            }
+
+        });
+
+    });
+});

@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <link rel="icon" type="image/png" href="images/favicon.png">
-    <meta name="description" content="Jikesh Kumar | Frontend Developer Portfolio | HTML CSS JavaScript React Developer">
-    <meta name="keywords" content="Frontend Developer, HTML, CSS, JavaScript, React, Portfolio">
+    <meta name="description" content="Jikesh Kumar | Full Stack Developer Portfolio | Java Spring Boot React MERN MySQL">
+    <meta name="keywords" content="Full Stack Developer, Java, Spring Boot, React, MERN, MySQL, JavaScript, Portfolio">
     <meta name="author" content="Jikesh Kumar">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,36 +38,85 @@
 
     <section class="hero" id="home">
         <div class="hero-content">
+ <!-- Left Side-->
             <div class="hero-left">
                 <h4>Hello, I'm 👋</h4>
                 <h1>Jikesh Kumar</h1>
-                <h2>Java Full Stack Developer</h2>
+                <h2>Full Stack Developer</h2>
+
+                <div class="hero-stack">
+                <span>Java</span>
+                <span>Spring Boot</span>
+                <span>React</span>
+                <span>MERN</span>
+                <span>MySQL</span>
+                </div>
+
                 <div class="status">
                     <i class="fa-solid fa-circle"></i>
                     Open to Full-Time Opportunities
                 </div>
                 <p>
-                    B.Tech CSE student and Full Stack Developer Intern focused on
-                    building scalable web applications using Java, Spring Boot,
-                    React, REST APIs and MySQL.
+                B.Tech Computer Science Engineering student and Full Stack Developer
+                with hands-on experience in Java, Spring Boot, React, MERN and
+                database-driven web applications.
                 </p>
                 <div class="hero-buttons">
-                    <a href="resume/Jikesh_Kumar_Java_Fullstack_Resume.pdf"
-                        class="btn btn-primary" download>
-                        <i class="fa-solid fa-download"></i>
-                        Resume
-                    </a>
+                <!-- View Projects -->
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fa-solid fa-code"></i>
+                    View My Work
+                </a>
+
+<!-----------------Resume Dropdown----------------------------------------------->
+
+                <div class="resume-dropdown">
+
+                    <button class="btn btn-outline resume-btn" type="button">
+                        <i class="fa-solid fa-file-pdf"></i>
+                        Download Resume
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+
+                     <div class="resume-menu">
+                        <a href="resume/Jikesh_Kumar_Java_Fullstack_Resume.pdf"
+                           target="_blank"
+                           download>
+                            <i class="fa-brands fa-java"></i>
+                            Java Full Stack Resume
+                        </a>
+
+                        <a href="resume/Jikesh_Kumar_MERN_Stack_Resume.pdf"
+                           target="_blank"
+                           download>
+                            <i class="fa-brands fa-node-js"></i>
+                            MERN Stack Resume
+                        </a>
+
+                        <a href="resume/Jikesh_Kumar_Frontend_Developer_Resume.pdf"
+                           target="_blank"
+                           download>
+                            <i class="fa-solid fa-laptop-code"></i>
+                            Frontend Resume
+                        </a>
+
+                     </div>
+                </div>
+
+<!-- GitHub -->
                     <a href="https://github.com/GksPandit"
                         target="_blank"
                         class="btn btn-outline">
                         <i class="fa-brands fa-github"></i>
                         GitHub
                     </a>
+<!-- LinkedIn -->
                     <a href="https://www.linkedin.com/in/jikeshkumar/"
                         target="_blank"
                         class="btn btn-outline">
                         <i class="fa-brands fa-linkedin"></i>
                         LinkedIn
+<!-- Leetcode -->
                     <a href="https://leetcode.com/u/jikeshkumar/"
                         target="_blank"
                         class="btn btn-outline">
@@ -75,161 +124,271 @@
                          LeetCode
                     </a>
                 </div>
-                <!-- Hero Stats -->
-                <div class="hero-stats">
-                    <div class="stat-box">
-                        <h3>5+</h3>
-                        <span>Projects</span>
-                    </div>
-                    <div class="stat-box">
-                        <h3>2</h3>
-                        <span>Internship</span>
-                    </div>
-                    <div class="stat-box">
-                        <h3>8.0</h3>
-                        <span>CGPA</span>
-                    </div>
-                    <div class="stat-box">
-                        <h3>5+</h3>
-                        <span>Certificates</span>
-                    </div>
-                    <div class="stat-box">
-                        <h3>50+</h3>
-                        <span>LeetCode Problems</span>
-                    </div>
-                </div>
             </div>
-
-            <!-- Hero Image -->
-
-            <div class="hero-right">
-                    <img src="images/jikesh2.jpeg"
-                        alt="Jikesh Kumar">
-                </div>
+ <!-- RIGHT SIDE -->
+        <div class="hero-right">
+            <div class="hero-image-wrapper">
+                <div class="hero-image-glow"></div>
+                <img
+                    src="images/jikesh profile.png"
+                    alt="Jikesh Kumar - Full Stack Developer"
+                    class="hero-profile-image"
+                >
             </div>
         </div>
+        </div>
     </section>
+
+
 
 <!--==================== ABOUT ====================-->
 
 <section class="about" id="about">
-    <div class="container">
+    
         <div class="section-title">
             <h2>About Me</h2>
             <span>Who I Am</span>
+            <p>Developer • Learner • Problem Solver</p>
         </div>
-        <div class="about-wrapper">
-          <div class="about-image">
-              <i class="fas fa-laptop-code"></i>
-              <h3>Java Full Stack Developer</h3>
-              <p>Building Modern Full Stack Applications</p>
-        </div>
-            <div class="about-right">
-                <h3>Java Full Stack Developer</h3>
-                <p>
-                    Hello! I'm <strong>Jikesh Kumar</strong>, a passionate Frontend
-                    Developer and B.Tech Computer Science Engineering student.
 
-                    I enjoy building modern, responsive and user-friendly web
-                    applications using HTML, CSS, JavaScript and React.
+        <div class="about-container">
+<!--LEFT SIDE-->
+            <div class="about-image-card">
+            <div class="about-image-icon">
+                <i class="fa-solid fa-code"></i>
+                </div>
+            <h3>Building. Learning. Growing.</h3>
+            <p>
+                From frontend interfaces to backend APIs and full-stack
+                applications, I enjoy turning ideas into real-world software.
+            </p>
+            </div>
 
-                    My goal is to become a skilled Full Stack Developer while
-                    creating real-world projects and continuously improving my
-                    problem-solving skills.
-                </p>
-                <div class="about-info">
+            <!-- RIGHT SIDE -->
+            <div class="about-content">
+            <span class="about-greeting">
+                Hello, I'm Jikesh Kumar
+            </span>
+            <h3>
+                Computer Science Engineering Student &
+                <span>Full Stack Developer</span>
+            </h3>
+            <p>
+                I am a Computer Science Engineering student at
+                <strong>IIMT College of Engineering</strong>, building my career
+                in software development with a strong focus on Full Stack
+                Development.
+            </p>
+
+            <p>
+                My development journey started with frontend development, where
+                I worked with HTML, CSS, JavaScript and React.js to build
+                responsive and user-friendly interfaces. Over time, I expanded
+                towards backend development and started building applications
+                using Java, Spring Boot, REST APIs and MySQL.
+            </p>
+
+            <p>
+                Through internships and real-world project work, I have worked
+                on frontend applications, full-stack systems, database-driven
+                applications and backend APIs. I have also explored MERN
+                development and AI-assisted development while building practical
+                projects.
+            </p>
+
+            <p>
+                I believe that becoming a good developer is not only about
+                learning technologies. It is about understanding problems,
+                writing maintainable code, continuously improving and being able
+                to build something useful from an idea.
+            </p>
+
+<!-- ABOUT HIGHLIGHTS -->
+            <div class="about-highlights">
+                <div class="about-highlight">
+                    <i class="fa-solid fa-graduation-cap"></i>
                     <div>
-                        <h4>Name</h4>
-                        <span>Jikesh Kumar</span>
-                    </div>
-                    <div>
-                        <h4>Email</h4>
-                        <span>jikeshkumar841439@gmail.com</span>
-                    </div>
-                    <div>
-                        <h4>Education</h4>
-                        <span>B.Tech CSE</span>
-                    </div>
-                    <div>
-                        <h4>CGPA</h4>
-                        <span>8.0</span>
+                        <h4>B.Tech CSE</h4>
+                        <p>2023 - 2027 • CGPA 7.5</p>
                     </div>
                 </div>
-                <a href="resume/Jikesh_Kumar_Java_Fullstack_Resume.pdf"
-                    download
-                    class="about-btn">
-                    Download Resume
+                <div class="about-highlight">
+                    <i class="fa-solid fa-layer-group"></i>
+                    <div>
+                        <h4>Full Stack Development</h4>
+                        <p>Java • Spring Boot • React • MERN</p>
+                    </div>
+                </div>
+                <div class="about-highlight">
+                    <i class="fa-solid fa-database"></i>
+                    <div>
+                        <h4>Backend & Databases</h4>
+                        <p>REST APIs • MySQL • MongoDB</p>
+                    </div>
+                </div>
+                <div class="about-highlight">
+                    <i class="fa-solid fa-brain"></i>
+                    <div>
+                        <h4>Problem Solving</h4>
+                        <p>Java • OOP • DSA</p>
+                    </div>
+                </div>
+           
+            </div>
+ <!-- ABOUT CTA -->
+
+            <div class="about-actions">
+                <a href="#experience" class="btn btn-primary">
+                    <i class="fa-solid fa-briefcase"></i>
+                    My Experience
+                </a>
+                <a href="#projects" class="btn btn-outline">
+                    <i class="fa-solid fa-folder-open"></i>
+                    Explore Projects
                 </a>
             </div>
         </div>
     </div>
 </section>
 
+
+
 <!--==================== SKILLS ====================-->
 
 <section class="skills" id="skills">
+
     <div class="container">
+
         <div class="section-title">
             <h2>My Skills</h2>
             <span>Technologies I Work With</span>
+            <p>Full Stack Development • Java • MERN • Problem Solving</p>
         </div>
+
         <div class="skills-grid">
+
             <!-- Frontend -->
             <div class="skill-card">
-                <i class="fa-solid fa-code"></i>
-                <h3>Frontend</h3>
+                <div class="skill-icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+
+                <h3>Frontend Development</h3>
+
                 <ul>
                     <li>HTML5</li>
                     <li>CSS3</li>
-                    <li>JavaScript (ES6+)</li>
+                    <li>JavaScript ES6+</li>
                     <li>React.js</li>
                     <li>Bootstrap</li>
                     <li>Responsive Design</li>
                 </ul>
             </div>
 
-            <!-- Backend -->
+
+            <!-- MERN Stack -->
+            <div class="skill-card featured-skill">
+                <div class="skill-icon">
+                    <i class="fa-brands fa-react"></i>
+                </div>
+
+                <h3>MERN Stack</h3>
+
+                <ul>
+                    <li>MongoDB</li>
+                    <li>Express.js</li>
+                    <li>React.js</li>
+                    <li>Node.js</li>
+                    <li>REST APIs</li>
+                    <li>API Integration</li>
+                </ul>
+            </div>
+
+
+            <!-- Java Backend -->
             <div class="skill-card">
-                <i class="fa-solid fa-server"></i>
-                <h3>Backend</h3>
+                <div class="skill-icon">
+                    <i class="fa-brands fa-java"></i>
+                </div>
+
+                <h3>Java Backend</h3>
+
                 <ul>
                     <li>Java</li>
                     <li>Spring Boot</li>
                     <li>REST APIs</li>
-                    <li>Authentication</li>
                     <li>JDBC</li>
+                    <li>Authentication</li>
+                    <li>Maven</li>
                 </ul>
             </div>
 
-            <!-- Programming -->
+
+            <!-- Database -->
             <div class="skill-card">
-                <i class="fa-solid fa-laptop-code"></i>
-                <h3>Programming</h3>
+                <div class="skill-icon">
+                    <i class="fa-solid fa-database"></i>
+                </div>
+
+                <h3>Database</h3>
+
+                <ul>
+                    <li>MySQL</li>
+                    <li>SQL Queries</li>
+                    <li>Joins</li>
+                    <li>Relationships</li>
+                    <li>CRUD Operations</li>
+                    <li>MongoDB</li>
+                </ul>
+            </div>
+
+
+            <!-- Programming & DSA -->
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
+
+                <h3>Programming & DSA</h3>
+
                 <ul>
                     <li>Java</li>
                     <li>OOPs</li>
                     <li>Collections Framework</li>
-                    <li>Data Structures & Algorithm</li>
+                    <li>Data Structures</li>
+                    <li>Algorithms</li>
                     <li>Problem Solving</li>
                 </ul>
             </div>
 
-            <!-- Database -->
+
+            <!-- Core CS -->
             <div class="skill-card">
-                <i class="fa-solid fa-database"></i>
-                <h3>Database</h3>
+                <div class="skill-icon">
+                    <i class="fa-solid fa-microchip"></i>
+                </div>
+
+                <h3>Core CS</h3>
+
                 <ul>
-                    <li>MySQL</li>
-                    <li>SQL Queries</li>
-                    <li>Joins & Relationships</li>
-                    <li>CRUD Operations</li>
+                    <li>OOP</li>
+                    <li>DBMS</li>
+                    <li>Operating Systems</li>
+                    <li>Computer Networks</li>
+                    <li>Software Engineering</li>
+                    <li>SDLC</li>
                 </ul>
             </div>
 
+
             <!-- Tools -->
-            <div class="skill-card">
-                <i class="fa-solid fa-screwdriver-wrench"></i>
-                <h3>Tools</h3>
+            <div class="skill-card tools-skill">
+                <div class="skill-icon">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                </div>
+
+                <h3>Tools & Workflow</h3>
+
                 <ul>
                     <li>Git</li>
                     <li>GitHub</li>
@@ -240,372 +399,1850 @@
                     <li>Vercel</li>
                 </ul>
             </div>
+
         </div>
+
     </div>
+
 </section>
+
 
 <!--==================== PROJECTS ====================-->
 
 <section class="projects" id="projects">
+
     <div class="container">
+
         <div class="section-title">
             <h2>Featured Projects</h2>
-            <span>My Recent Work</span>
+            <span>My Development Work</span>
+            <p>Frontend • MERN • Java Full Stack • Core Java • AI</p>
         </div>
-        <div class="project-grid">
-            <!-- Project 1 -->
 
-            <div class="project-card">
-                <img src="images/super-mall-admin.png" alt="Super Mall Admin">
-                <div class="project-content">
-                    <h3>Super Mall Admin</h3>
-                    <p>
-                        Admin Dashboard with Authentication, Product Management
-                        and Firebase Backend.
-                    </p>
-                    <div class="tech-stack">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                        <span>Firebase Authentication</span>
-                        <span>cloudinary DataBase</span>
-                    </div>
-                    <div class="project-buttons">
-                        <a href="https://github.com/GksPandit/super-mall-admin"
-                            target="_blank">
-                            <i class="fa-brands fa-github"></i>
-                            GitHub
-                        </a>
-                             <a href="https://super-mall-admin.vercel.app" target="_blank" class="btn">
-                             <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- Project 2 -->
 
-            <div class="project-card">
-                <img src="images/weather-app.png" alt="Weather App">
-                <div class="project-content">
-                    <h3>Weather App</h3>
-                    <p>
-                        Real-time Weather Application using OpenWeather API.
-                    </p>
-                    <div class="tech-stack">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                        <span>API</span>
-                    </div>
-                    <div class="project-buttons">
-                        <a href="https://github.com/GksPandit/weather-App"
-                            target="_blank">
-                            <i class="fa-brands fa-github"></i>
-                            GitHub
-                        </a>
-                             <a href="https://weather-app-pi-rouge-81.vercel.app/" target="_blank" class="btn">
-                             <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- Project 3 -->
+        <!--================ FRONTEND PROJECTS ================-->
 
-            <div class="project-card">
-                <img src="images/Advance-todo-app.png" alt="Todo App">
-                <div class="project-content">
-                    <h3>Advanced Todo App</h3>
-                    <p>
-                        Modern Todo Application with Local Storage and Filtering.
-                    </p>
-                    <div class="tech-stack">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                        <span>CRUD</span>
-                        <span>Local Storage</span>
-                    </div>
-                    <div class="project-buttons">
-                        <a href="https://github.com/GksPandit/advance-todo-app"
-                            target="_blank">
-                            <i class="fa-brands fa-github"></i>
-                            GitHub
-                        </a>
-                            <a href="https://vercel.com/jikesh-kumars-projects/advance-todo-app" target="_blank" class="btn">
-                              <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
-                        </a>
-                    </div>
-                </div>
+        <div class="project-category">
+            <div class="project-category-title">
+                <h3>Frontend Projects</h3>
+                <span>HTML • CSS • JavaScript • JS-ES6+ • Firebase • Cloudinary</span>
             </div>
 
-            <!--Project 4-->
-             <div class="project-card">
-                <img src="images/digital-clock.png" alt="Digital Clock">
-                <div class="project-content">
-                    <h3>Digital Clock</h3>
-                    <p>
-                       A responsive digital clock that displays the current time using JavaScript Date API.
-                    </p>
-                    <div class="tech-stack">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript(ES6)</span>
-                    </div>
-                    <div class="project-buttons">
-                        <a href="https://github.com/GksPandit/Digital-Clock"
-                            target="_blank">
-                            <i class="fa-brands fa-github"></i>
-                            GitHub
-                        </a>
-                            <a href="https://digital-clock-pi-vert.vercel.app/" target="_blank" class="btn">
-                              <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
-                        </a>
+            <div class="project-grid">
+
+                <!-- Super Mall -->
+                <div class="project-card">
+                    <img src="images/super-mall-admin.png"
+                         alt="Super Mall Admin">
+
+                    <div class="project-content">
+                        <h3>Super Mall Admin</h3>
+
+                        <p>
+                            Responsive admin dashboard with authentication,
+                            product management and cloud-based asset handling.
+                        </p>
+
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Firebase</span>
+                            <span>Cloudinary</span>
+                        </div>
+
+                        <div class="project-buttons">
+                            <a href="https://github.com/GksPandit/super-mall-admin"
+                               target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                                GitHub
+                            </a>
+
+                            <a href="https://super-mall-admin.vercel.app"
+                               target="_blank"
+                               class="btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                Live Demo
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!--Project 5-->
-             <div class="project-card">
-                <img src="images/calculator-app.png" alt="Calculator app">
-                <div class="project-content">
-                    <h3>Calculator App</h3>
-                    <p>
-                      A responsive calculator supporting basic arithmetic operations using JavaScript.
-                    </p>
-                    <div class="tech-stack">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript(ES6)</span>
-                    </div>
-                    <div class="project-buttons">
-                        <a href="https://github.com/GksPandit/Calculator-App"
-                            target="_blank">
-                            <i class="fa-brands fa-github"></i>
-                            GitHub
-                        </a>
-                            <a href="https://calculator-app-flax-eta.vercel.app/" target="_blank" class="btn">
-                              <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
-                        </a>
-                    </div>
-                </div>
-            </div>
 
-            <!--Project 6-->
-             <div class="project-card">
-                <img src="images/GitHub-Profile.png" alt="GitHub Profile">
-                <div class="project-content">
-                    <h3>GitHub Profile Finder</h3>
-                    <p>
-                      Search GitHub users and display profile details using GitHub API with Fetch API and Async/Await.
-                    </p>
-                    <div class="tech-stack">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript(ES6)</span>
-                        <span>API Integration</span>
-                    </div>
-                    <div class="project-buttons">
-                        <a href="https://github.com/GksPandit/GitHub-Profile-Finder"
-                            target="_blank">
-                            <i class="fa-brands fa-github"></i>
-                            GitHub
-                        </a>
-                            <a href="https://git-hub-profile-finder-v1mk.vercel.app/" target="_blank" class="btn">
-                              <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
-                        </a>
+                <!-- Weather -->
+                <div class="project-card">
+                    <img src="images/weather-app.png"
+                         alt="Weather App">
+
+                    <div class="project-content">
+                        <h3>Real-Time Weather App</h3>
+
+                        <p>
+                            Weather application using API integration,
+                            asynchronous JavaScript and dynamic weather data.
+                        </p>
+
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>REST API</span>
+                        </div>
+
+                        <div class="project-buttons">
+                            <a href="https://github.com/GksPandit/weather-App"
+                               target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                                GitHub
+                            </a>
+
+                            <a href="https://weather-app-pi-rouge-81.vercel.app/"
+                               target="_blank"
+                               class="btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                Live Demo
+                            </a>
+                        </div>
                     </div>
                 </div>
+
+
+                <!-- Todo -->
+                <div class="project-card">
+                    <img src="images/Advance-todo-app.png"
+                         alt="Advanced Todo App">
+
+                    <div class="project-content">
+                        <h3>Advanced Todo App</h3>
+
+                        <p>
+                            Task management application with CRUD operations,
+                            filtering and browser Local Storage.
+                        </p>
+
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>CRUD</span>
+                            <span>Local Storage</span>
+                        </div>
+
+                        <div class="project-buttons">
+                            <a href="https://github.com/GksPandit/advance-todo-app"
+                               target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                                GitHub
+                            </a>
+
+                            <a href="https://vercel.com/jikesh-kumars-projects/advance-todo-app"
+                               target="_blank"
+                               class="btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Digital Clock -->
+                <div class="project-card">
+                    <img src="images/digital-clock.png"
+                         alt="Digital Clock">
+
+                    <div class="project-content">
+                        <h3>Digital Clock</h3>
+
+                        <p>
+                            Responsive digital clock using JavaScript Date API
+                            to display the current time dynamically.
+                        </p>
+
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript ES6</span>
+                        </div>
+
+                        <div class="project-buttons">
+                            <a href="https://github.com/GksPandit/Digital-Clock"
+                               target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                                GitHub
+                            </a>
+
+                            <a href="https://digital-clock-pi-vert.vercel.app/"
+                               target="_blank"
+                               class="btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Calculator -->
+                <div class="project-card">
+                    <img src="images/calculator-app.png"
+                         alt="Calculator App">
+
+                    <div class="project-content">
+                        <h3>Calculator App</h3>
+
+                        <p>
+                            Responsive calculator supporting basic arithmetic
+                            operations using JavaScript.
+                        </p>
+
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript ES6</span>
+                        </div>
+
+                        <div class="project-buttons">
+                            <a href="https://github.com/GksPandit/Calculator-App"
+                               target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                                GitHub
+                            </a>
+
+                            <a href="https://calculator-app-flax-eta.vercel.app/"
+                               target="_blank"
+                               class="btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- GitHub Finder -->
+                <div class="project-card">
+                    <img src="images/GitHub-Profile.png"
+                         alt="GitHub Profile Finder">
+
+                    <div class="project-content">
+                        <h3>GitHub Profile Finder</h3>
+
+                        <p>
+                            Search GitHub users and display profile information
+                            using GitHub API and asynchronous JavaScript.
+                        </p>
+
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript ES6</span>
+                            <span>API Integration</span>
+                        </div>
+
+                        <div class="project-buttons">
+                            <a href="https://github.com/GksPandit/GitHub-Profile-Finder"
+                               target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                                GitHub
+                            </a>
+
+                            <a href="https://git-hub-profile-finder-v1mk.vercel.app/"
+                               target="_blank"
+                               class="btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!--================ JAVA SPRING BOOT ================-->
+
+        <div class="project-category">
+
+            <div class="project-category-title">
+                <h3>Java + Spring Boot Projects</h3>
+                <span>React • Spring Boot • REST API • MySQL</span>
             </div>
 
+            <div class="project-grid">
 
 
+                <!-- Student Management -->
+                <div class="project-card">
+
+                <img
+                    src="images/students-management-system.png"
+                    alt="Student Management System"
+                 >
+                    <div class="project-content">
+
+                        <h3>Student Management System</h3>
+
+                        <p>
+                            Full-stack student management application built
+                            with React.js and Spring Boot for managing student
+                            records through REST APIs and MySQL.
+                        </p>
+
+                        <div class="tech-stack">
+                            <span>React.js</span>
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>REST API</span>
+                            <span>MySQL</span>
+                            <span>Axios</span>
+                        </div>
+
+                        <div class="project-buttons">
+
+                            <a href="https://github.com/GksPandit/student-management-system"
+                               target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                                GitHub
+                            </a>
+
+                            <!-- Add Vercel/Live URL later -->
+                            <a href="https://vercel.com/jikesh-kumars-projects/student-management-system"
+                               class="btn project-link-pending">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                Live Demo
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- CineVerse -->
+                <div class="project-card">
+
+                <img
+                    src="images/CineVerse API.png"
+                    alt="CineVerse API"
+                 >
+
+                    <div class="project-content">
+
+                        <h3>CineVerse API</h3>
+
+                        <p>
+                            RESTful movie management backend with CRUD,
+                            validation, exception handling, filtering,
+                            pagination, sorting and Swagger documentation.
+                        </p>
+
+                        <div class="tech-stack">
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>JPA</span>
+                            <span>Hibernate</span>
+                            <span>MySQL</span>
+                            <span>Swagger</span>
+                        </div>
+
+                        <div class="project-buttons">
+
+                            <a href="https://github.com/GksPandit/CineVerse-API"
+                               target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                                GitHub
+                            </a>
+
+                            <a href="https://vercel.com/jikesh-kumars-projects/cine-verse-api"
+                               class="btn project-link-pending">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                API Demo
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!--================ JAVA OOP ================-->
+
+        <div class="project-category">
+
+            <div class="project-category-title">
+                <h3>Core Java & OOP Projects</h3>
+                <span>Java • OOP • Collections</span>
+            </div>
+
+            <div class="project-grid">
+
+                <div class="project-card">
+
+                    <div class="project-placeholder oop-project">
+                        <i class="fa-solid fa-car"></i>
+                    </div>
+
+                    <div class="project-content">
+
+                        <h3>Car Showroom Management System</h3>
+
+                        <p>
+                            Java Core OOP console application for managing
+                            cars, customers and employees using object-oriented
+                            programming concepts.
+                        </p>
+
+                        <div class="tech-stack">
+                            <span>Java</span>
+                            <span>OOP</span>
+                            <span>ArrayList</span>
+                            <span>Inheritance</span>
+                            <span>Polymorphism</span>
+                        </div>
+
+                        <div class="project-buttons">
+
+                            <a href="https://github.com/GksPandit/Car-Showroom-Management-System"
+                               target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                                GitHub
+                            </a>
+
+                            <a href="#"
+                               class="btn project-link-pending">
+                                <i class="fa-solid fa-terminal"></i>
+                                Console Project
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
 
         </div>
+
+
+        <!--================ MERN PROJECTS ================-->
+
+        <div class="project-category mern-category">
+
+            <div class="project-category-title">
+                <h3>MERN Stack Projects</h3>
+                <span>MongoDB • Express.js • React.js • Node.js</span>
+            </div>
+
+            <div class="project-grid">
+
+                <!-- MERN Project 1 -->
+                <div class="project-card coming-project">
+
+                    <div class="project-placeholder">
+                        <i class="fa-brands fa-react"></i>
+                    </div>
+
+                    <div class="project-content">
+
+                        <span class="coming-badge">COMING SOON</span>
+
+                        <h3>MERN Full Stack Project</h3>
+
+                        <p>
+                            Full-stack MERN application will be added here.
+                            This space is reserved for an upcoming project.
+                        </p>
+
+                        <div class="tech-stack">
+                            <span>MongoDB</span>
+                            <span>Express.js</span>
+                            <span>React.js</span>
+                            <span>Node.js</span>
+                        </div>
+
+                    </div>
+                </div>
+
+
+<!-- MERN Project 2 -->
+                <div class="project-card coming-project">
+
+                    <div class="project-placeholder">
+                        <i class="fa-brands fa-node-js"></i>
+                    </div>
+
+                    <div class="project-content">
+
+                        <span class="coming-badge">COMING SOON</span>
+
+                        <h3>MERN Full Stack Project</h3>
+
+                        <p>
+                            Reserved for another production-ready MERN
+                            application.
+                        </p>
+
+                        <div class="tech-stack">
+                            <span>MongoDB</span>
+                            <span>Express.js</span>
+                            <span>React.js</span>
+                            <span>Node.js</span>
+                        </div>
+
+                    </div>
+                </div>
+
+ <!-- MERN Project 3 -->
+                <div class="project-card coming-project">
+
+                    <div class="project-placeholder">
+                        <i class="fa-solid fa-layer-group"></i>
+                    </div>
+
+                    <div class="project-content">
+
+                        <span class="coming-badge">COMING SOON</span>
+
+                        <h3>MERN Full Stack Project</h3>
+
+                        <p>
+                            Reserved for a future MERN stack project.
+                        </p>
+
+                        <div class="tech-stack">
+                            <span>MongoDB</span>
+                            <span>Express.js</span>
+                            <span>React.js</span>
+                            <span>Node.js</span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!--================ AI PROJECTS ================-->
+
+        <div class="project-category">
+
+            <div class="project-category-title">
+                <h3>AI & AI-Assisted Projects</h3>
+                <span>AI • Full Stack & Frontend • Practical Applications</span>
+            </div>
+
+            <div class="project-grid">
+
+                <!-- Real Time Stock -->
+                <div class="project-card">
+
+                <img
+                    src="images/real time stocker.png"
+                    alt="CineVerse API"
+                 >
+
+                    <div class="project-content">
+
+                        <h3>Real-Time Stock</h3>
+
+                        <p>
+                            Real-time stock application built with
+                            AI-assisted development and practical
+                            application workflows.
+                        </p>
+
+                        <div class="tech-stack">
+                            <span>AI-Assisted</span>
+                            <span>Web Development</span>
+                            <span>Real-Time Data</span>
+                        </div>
+
+                        <div class="project-buttons">
+                            <a href="#"
+                               class="project-link-pending">
+                                <i class="fa-brands fa-github"></i>
+                                GitHub
+                            </a>
+
+                            <a href="https://real-time-stock-screener-sepia.vercel.app/"
+                               class="btn project-link-pending">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                Live Demo
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- College Finder -->
+                <div class="project-card">
+
+                <img
+                    src="images/college-finder.png"
+                    alt="College Finder"
+                 >
+
+                    <div class="project-content">
+
+                        <h3>College Finder</h3>
+
+                        <p>
+                            College discovery application developed using
+                            modern full-stack technologies with database
+                            integration.
+                        </p>
+
+                        <div class="tech-stack">
+                            <span>Next.js</span>
+                            <span>Prisma</span>
+                            <span>PostgreSQL</span>
+                            <span>API</span>
+                        </div>
+
+                        <div class="project-buttons">
+                            <a href="https://github.com/GksPandit/college-finder"
+                               class="project-link-pending">
+                                <i class="fa-brands fa-github"></i>
+                                GitHub
+                            </a>
+
+                            <a href="https://college-finder-silk.vercel.app/"
+                               class="btn project-link-pending">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                Live Demo
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- Hiree -->
+                <div class="project-card">
+
+                <img
+                    src="images/hiree.png"
+                    alt="Hiree"
+                 >
+
+
+                    <div class="project-content">
+
+                        <h3>Hiree Frontend</h3>
+
+                        <p>
+                            Modern frontend application developed as part of
+                            real project work with focus on responsive UI
+                            and user experience.
+                        </p>
+
+                        <div class="tech-stack">
+                            <span>React</span>
+                            <span>JavaScript</span>
+                            <span>Frontend</span>
+                            <span>API</span>
+                        </div>
+
+                        <div class="project-buttons">
+                            <a href="https://github.com/GksPandit/hiree-frontend"
+                               class="project-link-pending">
+                                <i class="fa-brands fa-github"></i>
+                                GitHub
+                            </a>
+
+                            <a href="https://hiree-frontend-seven.vercel.app/"
+                               class="btn project-link-pending">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                Live Demo
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- AI Orbit -->
+                <div class="project-card">
+
+                <img
+                    src="images/ai orbit.png"
+                    alt="AI Orbit"
+                 >
+
+                    <div class="project-content">
+
+                        <h3>AI Orbit Companies</h3>
+
+                        <p>
+                            AI-assisted company-focused web application
+                            developed during practical project work.
+                        </p>
+
+                        <div class="tech-stack">
+                            <span>AI-Assisted</span>
+                            <span>Web Development</span>
+                            <span>Frontend</span>
+                        </div>
+
+                        <div class="project-buttons">
+                            <a href="https://github.com/GksPandit/ai-orbit-companies"
+                               class="project-link-pending">
+                                <i class="fa-brands fa-github"></i>
+                                GitHub
+                            </a>
+
+                            <a href="https://ai-orbit-companies-beta.vercel.app/"
+                               class="btn project-link-pending">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                Live Demo
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
     </div>
+
 </section>
+
+
+
 
 <!--==================== EXPERIENCE ====================-->
 
 <section class="experience" id="experience">
+
     <div class="container">
+
         <div class="section-title">
             <h2>Experience & Education</h2>
-            <span>My Journey</span>
+            <span>My Professional Journey</span>
+            <p>Internships • Work Experience • Education</p>
         </div>
+
+
         <div class="timeline">
-            <!-- Internship -->
 
-            <!-- Unified Mentor -->
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h3>Frontend Developer Intern</h3>
-                    <h4>Unified Mentor Pvt. Ltd.</h4>
-                    <span>Nov 2025 – Feb 2026</span>
-                    <p>
-                        Built responsive web applications using HTML, CSS and
-                        JavaScript. Worked on real-world frontend projects and
-                        improved UI/UX development skills.
-                    </p>
-                </div>
-            </div>
 
-            <!-- TalentXMinds -->
+            <!--================ TALENTXMINDS ================-->
+
             <div class="timeline-item">
+
                 <div class="timeline-dot"></div>
+
                 <div class="timeline-content">
-                    <h3>Full Stack Developer Intern</h3>
+
+                    <span class="timeline-date">
+                        2026
+                    </span>
+
+                    <h3>Java Full Stack Developer Intern</h3>
+
                     <h4>TalentXMinds</h4>
-                    <span>Jul 2026 – Present</span>
+
                     <p>
-                        Working on full stack application development with Java,
-                        Spring Boot, React and MySQL. Learning and contributing to
-                        backend APIs, database integration, application architecture
-                        and real-world software development workflows.
+                        Worked on full-stack application development using
+                        Java, Spring Boot, React and MySQL. Gained hands-on
+                        experience with backend APIs, database integration,
+                        frontend development and real-world software
+                        development workflows.
                     </p>
+
+                    <div class="experience-tech">
+                        <span>Java</span>
+                        <span>Spring Boot</span>
+                        <span>React</span>
+                        <span>MySQL</span>
+                        <span>REST APIs</span>
+                    </div>
+
                 </div>
+
             </div>
-            <!-- College -->
+
+
+            <!--================ THE AISIGNAL ================-->
 
             <div class="timeline-item">
+
                 <div class="timeline-dot"></div>
+
                 <div class="timeline-content">
-                    <h3>B.Tech Computer Science Engineering</h3>
-                    <h4>IIMT College of Engineering</h4>
-                    <span>2023 – Present</span>
+
+                    <span class="timeline-date">
+                        2026
+                    </span>
+
+                    <h3>AI / Full Stack Project Work</h3>
+
+                    <h4>The AISignal</h4>
+
                     <p>
-                        Pursuing B.Tech with focus on Full Stack Developer,
-                        Java, Data Structures & Algorithms and Software Engineering.
+                        Worked on AI-assisted software development and built
+                        practical application projects as part of the
+                        development workflow. Worked with modern web
+                        technologies and AI-assisted development tools.
                     </p>
+
+                    <div class="experience-tech">
+                        <span>AI-Assisted Development</span>
+                        <span>Full Stack</span>
+                        <span>Web Development</span>
+                    </div>
+
                 </div>
+
             </div>
+
+
+            <!--================ ZETHETA ================-->
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-date">
+                        15-Day Work Experience
+                    </span>
+
+                    <h3>Frontend / Project Work</h3>
+
+                    <h4>Zetheta</h4>
+
+                    <p>
+                        Completed a 15-day project-based work experience,
+                        working on practical software development tasks and
+                        building project solutions.
+                    </p>
+
+                    <div class="experience-tech">
+                        <span>Frontend</span>
+                        <span>Web Development</span>
+                        <span>Project Work</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!--================ UNIFIED MENTOR ================-->
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-date">
+                        Nov 2025 – Feb 2026
+                    </span>
+
+                    <h3>Web Developer Intern</h3>
+
+                    <h4>Unified Mentor Pvt. Ltd.</h4>
+
+                    <p>
+                        Created responsive web applications using HTML, CSS
+                        and JavaScript. Worked on real-world frontend projects,
+                        reusable interfaces and Git/GitHub based development.
+                    </p>
+
+                    <div class="experience-tech">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Git</span>
+                        <span>GitHub</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!--================ CODECLAUSE ================-->
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-date">
+                        Internship
+                    </span>
+
+                    <h3>Web Development Intern</h3>
+
+                    <h4>CodeClause</h4>
+
+                    <p>
+                        Gained practical experience through web development
+                        projects and worked on building and improving
+                        application interfaces.
+                    </p>
+
+                    <div class="experience-tech">
+                        <span>Web Development</span>
+                        <span>Frontend</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!--================ EDC IIT DELHI ================-->
+
+<div class="timeline-item">
+
+    <div class="timeline-dot"></div>
+
+    <div class="timeline-content">
+
+        <span class="timeline-date">
+            15 Dec 2025 – 2 Feb 2026
+        </span>
+
+        <h3>Campus Ambassador</h3>
+
+        <h4>EDC IIT Delhi — BECon '26</h4>
+
+        <p>
+            Served as a Campus Ambassador for BECon '26, the Annual
+            Business and Entrepreneurship Conclave of EDC IIT Delhi.
+            Contributed to the program as part of the campus ambassador
+            initiative.
+        </p>
+
+        <div class="experience-tech">
+            <span>Campus Ambassador</span>
+            <span>Entrepreneurship</span>
+            <span>BECon '26</span>
+            <span>EDC IIT Delhi</span>
         </div>
+
     </div>
+
+</div>
+
+
+            <!--================ EDUCATION ================-->
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content education-item">
+
+                    <span class="timeline-date">
+                        2023 – 2027
+                    </span>
+
+                    <h3>B.Tech Computer Science Engineering</h3>
+
+                    <h4>IIMT College of Engineering</h4>
+
+                    <p>
+                        Pursuing Bachelor of Technology in Computer Science
+                        Engineering with focus on Full Stack Development,
+                        Java, Data Structures & Algorithms and Software
+                        Engineering.
+                    </p>
+
+                    <div class="experience-tech">
+                        <span>B.Tech CSE</span>
+                        <span>Java</span>
+                        <span>DSA</span>
+                        <span>Software Engineering</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
 </section>
+
+
+
 
 <!--==================== CERTIFICATES ====================-->
 
 <section class="certificates" id="certificates">
+
     <div class="container">
+
+        <!-- SECTION TITLE -->
         <div class="section-title">
             <h2>Certificates</h2>
-            <span>Learning Never Stops</span>
+            <span>Learning & Achievements</span>
+            <p>Certifications • Programs • Internships • Participation</p>
         </div>
+
+
+        <!-- CERTIFICATE GRID -->
         <div class="certificate-grid">
+
+
+            <!--================ COURSERA =================-->
+
             <div class="certificate-card">
-                <i class="fa-solid fa-award"></i>
-                <h3>Unified Mentor</h3>
-                <p>Frontend Developer Internship Certificate</p>
+
+                <div class="certificate-icon">
+                    <i class="fa-solid fa-cloud"></i>
+                </div>
+
+                <div class="certificate-content">
+
+                    <span class="certificate-type">
+                        Certification
+                    </span>
+
+                    <h3>AWS Cloud Technical Essentials</h3>
+
+                    <h4>Amazon Web Services • Coursera</h4>
+
+                    <p>
+                        Professional certification focused on fundamental
+                        AWS cloud concepts and services.
+                    </p>
+
+                    <div class="certificate-tags">
+                        <span>AWS</span>
+                        <span>Cloud</span>
+                        <span>Coursera</span>
+                    </div>
+
+                    <a
+                        href="https://coursera.org/share/14adbd421f8fd70b587e277d6c0aa5b0"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="certificate-btn"
+                    >
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        View Certificate
+                    </a>
+
+                </div>
+
             </div>
+
+
+            <!--================ COURSERA =================-->
+
             <div class="certificate-card">
-                <i class="fa-solid fa-graduation-cap"></i>
-                <h3>Infosys Springboard</h3>
-                <p>Web Development & Programming</p>
+
+                <div class="certificate-icon">
+                    <i class="fa-solid fa-robot"></i>
+                </div>
+
+                <div class="certificate-content">
+
+                    <span class="certificate-type">
+                        Certification
+                    </span>
+
+                    <h3>Generative AI: Introduction and Applications</h3>
+
+                    <h4>IBM • Coursera</h4>
+
+                    <p>
+                        Certification covering Generative AI concepts,
+                        applications and practical understanding.
+                    </p>
+
+                    <div class="certificate-tags">
+                        <span>Generative AI</span>
+                        <span>AI</span>
+                        <span>Coursera</span>
+                    </div>
+
+                    <a
+                        href="https://coursera.org/share/9f0248704755038c84339952e0818fdc"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="certificate-btn"
+                    >
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        View Certificate
+                    </a>
+
+                </div>
+
             </div>
+
+
+            <!--================ COURSERA =================-->
+
             <div class="certificate-card">
-                <i class="fa-solid fa-laptop-code"></i>
-                <h3>Coursera</h3>
-                <p>Professional Development Courses</p
+
+                <div class="certificate-icon">
+                    <i class="fa-solid fa-chart-column"></i>
+                </div>
+
+                <div class="certificate-content">
+
+                    <span class="certificate-type">
+                        Certification
+                    </span>
+
+                    <h3>AI for Data Analysis</h3>
+
+                    <h4>Google • Coursera</h4>
+
+                    <p>
+                        Certification focused on using AI concepts and tools
+                        for data analysis.
+                    </p>
+
+                    <div class="certificate-tags">
+                        <span>AI</span>
+                        <span>Data Analysis</span>
+                        <span>Coursera</span>
+                    </div>
+
+                    <a
+                        href="https://coursera.org/share/b3d053d6650c1986b27c7e6b6d279671"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="certificate-btn"
+                    >
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        View Certificate
+                    </a>
+
+                </div>
+
             </div>
+
+
+            <!--================ EDC IIT DELHI =================-->
+
             <div class="certificate-card">
-                <i class="fa-solid fa-medal"></i>
-                <h3>EDC IIT Delhi</h3>
-                <p>Entrepreneurship Development Program</p>
+
+                <div class="certificate-icon">
+                    <i class="fa-solid fa-building-columns"></i>
+                </div>
+
+                <div class="certificate-content">
+
+                    <span class="certificate-type">
+                        Program
+                    </span>
+
+                    <h3>BECon '26 Campus Ambassador Program</h3>
+
+                    <h4>EDC IIT Delhi</h4>
+
+                    <p>
+                        Campus Ambassador for BECon '26, the annual Business
+                        and Entrepreneurship Conclave of EDC IIT Delhi.
+                    </p>
+
+                    <div class="certificate-tags">
+                        <span>Campus Ambassador</span>
+                        <span>Entrepreneurship</span>
+                        <span>IIT Delhi</span>
+                    </div>
+
+                    <a
+                        href="certificates/edc-iit-delhi-becon-2026.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="certificate-btn"
+                    >
+                        <i class="fa-solid fa-certificate"></i>
+                        View Certificate
+                    </a>
+
+                </div>
+
             </div>
-        </div>
+
+
+            <!--================ ADVANCED IOT =================-->
+
+            <div class="certificate-card">
+
+                <div class="certificate-icon">
+                    <i class="fa-solid fa-microchip"></i>
+                </div>
+
+                <div class="certificate-content">
+
+                    <span class="certificate-type">
+                        Training Program
+                    </span>
+
+                    <h3>Advanced Internet of Things (IoT)</h3>
+
+                    <h4>Technoledge Eduresearch Pvt. Ltd. • IIMT</h4>
+
+                    <p>
+                        Successfully completed the training program for
+                        Advanced Internet of Things (IoT).
+                    </p>
+
+                    <div class="certificate-tags">
+                        <span>IoT</span>
+                        <span>Training</span>
+                        <span>CSE</span>
+                    </div>
+
+                    <a
+                        href="certificates/advanced-iot.jpeg"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="certificate-btn"
+                    >
+                        <i class="fa-solid fa-certificate"></i>
+                        View Certificate
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!--================ SMART EMBEDDED IOT =================-->
+
+            <div class="certificate-card">
+
+                <div class="certificate-icon">
+                    <i class="fa-solid fa-network-wired"></i>
+                </div>
+
+                <div class="certificate-content">
+
+                    <span class="certificate-type">
+                        Training Program
+                    </span>
+
+                    <h3>Smart Embedded Systems & Internet of Things</h3>
+
+                    <h4>Technoledge Eduresearch Pvt. Ltd. • IIMT</h4>
+
+                    <p>
+                        Successfully completed the training program for
+                        Smart Embedded Systems & Internet of Things.
+                    </p>
+
+                    <div class="certificate-tags">
+                        <span>Embedded Systems</span>
+                        <span>IoT</span>
+                        <span>CSE</span>
+                    </div>
+
+                    <a
+                        href="certificates/smart-embedded-iot.jpeg"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="certificate-btn"
+                    >
+                        <i class="fa-solid fa-certificate"></i>
+                        View Certificate
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+
+            <!--================ SWALAKSHYA 2026 ================-->
+
+<div class="certificate-card">
+
+    <div class="certificate-icon">
+        <i class="fa-solid fa-star"></i>
     </div>
+
+    <div class="certificate-content">
+
+        <span class="certificate-type">
+            Participation
+        </span>
+
+        <h3>Swalakshya 2026</h3>
+
+        <h4>IIMT Group of Colleges</h4>
+
+        <p>
+            Certificate of Participation in Swalakshya 2026,
+            held on 25th and 26th February 2026.
+        </p>
+
+        <div class="certificate-tags">
+            <span>Participation</span>
+            <span>IIMT</span>
+            <span>Swalakshya 2026</span>
+        </div>
+
+        <a
+            href="certificates/swalakshya-2026.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="certificate-btn"
+        >
+            <i class="fa-solid fa-certificate"></i>
+            View Certificate
+        </a>
+
+    </div>
+
+</div>
+
+
+<!--================ INFOSYS SPRINGBOARD ================-->
+
+<div class="certificate-card">
+
+    <div class="certificate-icon">
+        <i class="fa-solid fa-laptop-code"></i>
+    </div>
+
+    <div class="certificate-content">
+
+        <span class="certificate-type">
+            Certification
+        </span>
+
+        <h3>Frontend Web Developer — Modern HTML CSS JavaScript</h3>
+
+        <h4>Infosys Springboard</h4>
+
+        <p>
+            Successfully completed the Frontend Web Developer course
+            covering modern HTML, CSS and JavaScript.
+        </p>
+
+        <div class="certificate-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Frontend</span>
+        </div>
+
+        <a
+            href="certificates/infosys-frontend-web-developer.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="certificate-btn"
+        >
+            <i class="fa-solid fa-certificate"></i>
+            View Certificate
+        </a>
+
+    </div>
+
+</div>
+
+
+
+            <!--================ NAUKRI CAMPUS =================-->
+
+            <div class="certificate-card">
+
+                <div class="certificate-icon">
+                    <i class="fa-solid fa-award"></i>
+                </div>
+
+                <div class="certificate-content">
+
+                    <span class="certificate-type">
+                        Participation
+                    </span>
+
+                    <h3>Bizquezt #26</h3>
+
+                    <h4>Naukri Campus</h4>
+
+                    <p>
+                        Certificate of participation in Bizquezt #26 —
+                        Business Geography and Global Markets.
+                    </p>
+
+                    <div class="certificate-tags">
+                        <span>Business</span>
+                        <span>Global Markets</span>
+                        <span>Participation</span>
+                    </div>
+
+                    <a
+                        href="certificates/bizquezt-26.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="certificate-btn"
+                    >
+                        <i class="fa-solid fa-certificate"></i>
+                        View Certificate
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!--================ DRISHTI-NE =================-->
+
+            <div class="certificate-card">
+
+                <div class="certificate-icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+
+                <div class="certificate-content">
+
+                    <span class="certificate-type">
+                        Hackathon
+                    </span>
+
+                    <h3>DRISHTI-NE Hackathon</h3>
+
+                    <h4>Unstop • IIM Shillong</h4>
+
+                    <p>
+                        Certificate of participation in DRISHTI-NE Hackathon
+                        of Unstop Holiday Fest 2025.
+                    </p>
+
+                    <div class="certificate-tags">
+                        <span>Hackathon</span>
+                        <span>Unstop</span>
+                        <span>IIM Shillong</span>
+                    </div>
+
+                    <a
+                        href="certificates/drishti-ne-hackathon.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="certificate-btn"
+                    >
+                        <i class="fa-solid fa-certificate"></i>
+                        View Certificate
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!--================ GOOGLE / KAGGLE =================-->
+
+            <div class="certificate-card">
+
+                <div class="certificate-icon">
+                    <i class="fa-brands fa-google"></i>
+                </div>
+
+                <div class="certificate-content">
+
+                    <span class="certificate-type">
+                        5-Day Program
+                    </span>
+
+                    <h3>Google / Kaggle 5-Day Program</h3>
+
+                    <h4>Google • Kaggle</h4>
+
+                    <p>
+                        Completed the 5-day learning program. Certificate
+                        image and verification link will be added here.
+                    </p>
+
+                    <div class="certificate-tags">
+                        <span>Google</span>
+                        <span>Kaggle</span>
+                        <span>5-Day Program</span>
+                    </div>
+
+                    <a
+                        href="#"
+                        class="certificate-btn"
+                    >
+                        <i class="fa-solid fa-certificate"></i>
+                        View Certificate
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!--================ TALENTXMINDS =================-->
+
+            <div class="certificate-card">
+
+                <div class="certificate-icon">
+                    <i class="fa-solid fa-briefcase"></i>
+                </div>
+
+                <div class="certificate-content">
+
+                    <span class="certificate-type">
+                        Internship
+                    </span>
+
+                    <h3>Java Full Stack Developer Internship</h3>
+
+                    <h4>TalentXMinds</h4>
+
+                    <p>
+                        Internship experience focused on Java Full Stack
+                        Development and practical software development.
+                    </p>
+
+                    <div class="certificate-tags">
+                        <span>Java</span>
+                        <span>Spring Boot</span>
+                        <span>React</span>
+                        <span>MySQL</span>
+                    </div>
+
+                    <a
+                        href="certificates/talentxminds-certificate.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="certificate-btn"
+                    >
+                        <i class="fa-solid fa-certificate"></i>
+                        View Certificate
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!--================ UNIFIED MENTOR =================-->
+
+            <div class="certificate-card">
+
+                <div class="certificate-icon">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
+
+                <div class="certificate-content">
+
+                    <span class="certificate-type">
+                        Internship
+                    </span>
+
+                    <h3>Web Developer Internship</h3>
+
+                    <h4>Unified Mentor Pvt. Ltd.</h4>
+
+                    <p>
+                        Internship experience involving frontend and web
+                        development projects.
+                    </p>
+
+                    <div class="certificate-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Web Development</span>
+                    </div>
+
+                    <a
+                        href="certificates/unified-mentor-certificate.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="certificate-btn"
+                    >
+                        <i class="fa-solid fa-certificate"></i>
+                        View Certificate
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!--================ CODECLAUSE =================-->
+
+            <div class="certificate-card">
+
+                <div class="certificate-icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+
+                <div class="certificate-content">
+
+                    <span class="certificate-type">
+                        Internship
+                    </span>
+
+                    <h3>Web Development Internship</h3>
+
+                    <h4>CodeClause</h4>
+
+                    <p>
+                        Internship experience involving practical web
+                        development projects and application development.
+                    </p>
+
+                    <div class="certificate-tags">
+                        <span>Web Development</span>
+                        <span>Frontend</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <a
+                        href="certificates/codeclause-certificate.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="certificate-btn"
+                    >
+                        <i class="fa-solid fa-certificate"></i>
+                        View Certificate
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!--================ ZETHETA =================-->
+
+            <div class="certificate-card">
+
+                <div class="certificate-icon">
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+
+                <div class="certificate-content">
+
+                    <span class="certificate-type">
+                        Project Work
+                    </span>
+
+                    <h3>Real Time Stock Screener</h3>
+
+                    <h4>Zetheta</h4>
+
+                    <p>
+                        Project-based work experience involving development
+                        of a Real Time Stock Screener application.
+                    </p>
+
+                    <div class="certificate-tags">
+                        <span>Frontend</span>
+                        <span>Project Work</span>
+                        <span>Stock Screener</span>
+                    </div>
+
+                    <a
+                        href="certificates/zetheta-certificate.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="certificate-btn"
+                    >
+                        <i class="fa-solid fa-certificate"></i>
+                        View Certificate
+                    </a>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
 </section>
+
 
 <!--==================== CONTACT ====================-->
 
 <section class="contact" id="contact">
     <div class="container">
+
         <div class="section-title">
             <h2>Contact Me</h2>
             <span>Let's Work Together</span>
         </div>
+
         <div class="contact-wrapper">
 
             <!-- Left -->
             <div class="contact-info">
+
                 <h3>Get In Touch</h3>
+
                 <p>
-                    I'm always open to internship opportunities, freelance
-                    projects and collaborations. Feel free to contact me.
+                    I'm open to full-time opportunities, freelance projects
+                    and professional collaborations. Feel free to reach out
+                    and let's build something meaningful together.
                 </p>
+
                 <div class="info">
                     <i class="fa-solid fa-envelope"></i>
-                    <span>jikeshkumar841439@gmail.com</span>
-                </div>
-                <div class="info">
-                    <i class="fa-solid fa-phone"></i>
-                    <span>+91- 7870735386</span>
-                </div>
-                <div class="contact-item">
-                    <i class="fa-brands fa-whatsapp"></i>
-                    <a href="https://wa.me/917870735386" target="_blank">
-                             Chat on WhatsApp
+                    <a href="mailto:jikeshkumar841439@gmail.com">
+                        jikeshkumar841439@gmail.com
                     </a>
                 </div>
+
+                <div class="info">
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="tel:+917870735386">
+                        +91 7870735386
+                    </a>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <a href="https://wa.me/917870735386" target="_blank" rel="noopener noreferrer">
+                        Chat on WhatsApp
+                    </a>
+                </div>
+
                 <div class="info">
                     <i class="fa-solid fa-location-dot"></i>
                     <span>Greater Noida, India</span>
                 </div>
+
                 <div class="social-links">
-                    <a href="https://github.com/GksPandit" target="_blank">
+
+                    <a href="https://github.com/GksPandit" target="_blank" rel="noopener noreferrer">
                         <i class="fa-brands fa-github"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/jikeshkumar/" target="_blank">
+
+                    <a href="https://www.linkedin.com/in/jikeshkumar/" target="_blank" rel="noopener noreferrer">
                         <i class="fa-brands fa-linkedin"></i>
                     </a>
+
+                    <a href="https://leetcode.com/u/jikeshkumar/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-solid fa-code"></i>
+                    </a>
+
                     <a href="mailto:jikeshkumar841439@gmail.com">
                         <i class="fa-solid fa-envelope"></i>
                     </a>
+
                 </div>
+
             </div>
 
-            <!-- Right -->
 
-             <form class="contact-form" id="contact-form">
-                <input type="text" name="name" id="subject" placeholder="Subject" required>
-                <input type="email" name="email" id="email" placeholder="Your Email" required>
-                <input type="text" name="subject" placeholder="Subject" required>
-                <textarea rows="6" name="message" id="message" placeholder="Your Message"></textarea>
+            <!-- Right -->
+            <form class="contact-form" id="contact-form">
+
+                <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Your Name"
+                    required
+                >
+
+                <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Your Email"
+                    required
+                >
+
+                <input
+                    type="text"
+                    name="subject"
+                    placeholder="Subject"
+                    required
+                >
+
+                <textarea
+                    rows="6"
+                    name="message"
+                    id="message"
+                    placeholder="Your Message"
+                    required
+                ></textarea>
+
                 <button type="submit">
+                    <i class="fa-solid fa-paper-plane"></i>
                     Send Message
                 </button>
+
             </form>
+
         </div>
     </div>
 </section>
 
+
 <!--==================== FOOTER ====================-->
 
 <footer class="footer">
+
     <div class="container">
+
         <h2>Jikesh Kumar</h2>
-        <p>Frontend Developer | B.Tech CSE Student</p>
+
+        <p>
+            Full Stack Developer | Java • Spring Boot • MERN • B.Tech CSE
+        </p>
+
         <div class="footer-social">
-            <a href="https://github.com/GksPandit" target="_blank">
+
+            <a href="https://github.com/GksPandit" target="_blank" rel="noopener noreferrer">
                 <i class="fa-brands fa-github"></i>
             </a>
-            <a href="https://www.linkedin.com/in/jikeshkumar/" target="_blank">
+
+            <a href="https://www.linkedin.com/in/jikeshkumar/" target="_blank" rel="noopener noreferrer">
                 <i class="fa-brands fa-linkedin"></i>
             </a>
+
+            <a href="https://leetcode.com/u/jikeshkumar/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-code"></i>
+            </a>
+
             <a href="mailto:jikeshkumar841439@gmail.com">
                 <i class="fa-solid fa-envelope"></i>
             </a>
+
         </div>
+
         <p class="copyright">
             © 2026 Jikesh Kumar. All Rights Reserved.
         </p>
+
     </div>
+
 </footer>
+
+
 <!-- Scroll Top Button -->
 
 <a href="#home" class="scroll-top">
     <i class="fa-solid fa-arrow-up"></i>
 </a>
+
+
+<!--==================== EMAILJS ====================-->
+
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <script src="script.js"></script>
 
